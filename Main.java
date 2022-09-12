@@ -26,13 +26,13 @@ class Main {
 
         whichBookIsLonger(book1, book2);
 
-        User user1 = new User("Иван", "Пословин", 29, "ivanposlovin@gmail.com");
+        User user1 = new User("Иван", "Пословин", 30, "ivanposlovinw@gmail.com");
         System.out.println(user1);
 
-        User user2 = new User("Петя", "Иванов", 12, "petyaivanov@mail.ru");
+        User user2 = new User("Петя", "Иванов", 15, "petyaivanovr@mail.ru");
         System.out.println(user2);
 
-        User user3 = new User("Василий", "Петров", 25, "petrovv@yandex.ru");
+        User user3 = new User("Василий", "Петров", 50, "petrovvw@yandex.ru");
         System.out.println(user3);
 
         User.onlineNow();
